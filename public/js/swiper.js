@@ -13,7 +13,7 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 var swiper1 = new Swiper(".mySwiper1", {
-  slidesPerView: 2.5,
+  slidesPerView: 1,
   spaceBetween: 30,
   freeMode: true,
   pagination: {
@@ -26,8 +26,9 @@ var swiper1 = new Swiper(".mySwiper1", {
   },
   breakpoints: {
     768: {
-      slidesPerView: 1.5,
-    }
+      slidesPerView: 2.5,
+    },
+
   }
 });
 
