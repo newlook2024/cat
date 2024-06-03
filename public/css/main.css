@@ -73,11 +73,12 @@ a:active {
 
 .swiper-pagination1 {
   top: 0px !important;
-  left: 42% !important;
+  left: 37% !important;
   position: relative !important;
-  z-index: 99 !important;
+  z-index: 9 !important;
 }
 
 body {
   overflow-x: hidden;
+  overflow-y: auto;
 }
